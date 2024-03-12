@@ -79,7 +79,7 @@ export function PopularProductChart() {
                   <Cell
                     key={`cell-${index}`}
                     fill={COLORS[index]}
-                    className="stroke-background hover:opacity-80"
+                    className="stroke-background hover:opacity-80 dark:stroke-zinc-900"
                   />
                 )
               })}
